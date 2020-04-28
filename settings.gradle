@@ -1,0 +1,2 @@
+rootProject.name='wil_gr7_dev'
+include ':app'

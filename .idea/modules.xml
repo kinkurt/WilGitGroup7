@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="wil_gr7_dev/app" />
+      <module fileurl="file://$PROJECT_DIR$/wil_gr7_dev.iml" filepath="$PROJECT_DIR$/wil_gr7_dev.iml" group="wil_gr7_dev" />
+    </modules>
+  </component>
+</project>
