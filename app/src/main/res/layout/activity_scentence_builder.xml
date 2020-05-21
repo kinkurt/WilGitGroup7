@@ -1,76 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ScentenceBuilderActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <TextView
-        android:layout_marginTop="125dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Please enter a name for the scentence collection"
-        android:textAlignment="center"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        android:id="@+id/tv_col_name"/>
 
-    <EditText
-        android:id="@+id/input_collection_name"
-        android:layout_below="@id/tv_col_name"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:maxLines="1"/>
-    <Button
-        android:layout_marginTop="15dp"
-        android:layout_below="@id/input_collection_name"
-        android:layout_centerHorizontal="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Create Collection"
-        android:id="@+id/btn_create_col"/>
 
-    <TextView
-        android:visibility="invisible"
-        android:layout_centerVertical="true"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Please enter scentence to add to the collection"
-        android:textAlignment="center"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        android:id="@+id/tv_scentance"/>
-
-    <EditText
-        android:visibility="invisible"
-        android:layout_below="@+id/tv_scentance"
-        android:layout_marginTop="20dp"
-        android:id="@+id/input_scentence"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:maxLines="1"/>
-    <Button
-        android:visibility="invisible"
-        android:layout_marginTop="15dp"
-        android:layout_below="@id/input_scentence"
-        android:layout_centerHorizontal="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Add Scentence to Collection"
-        android:id="@+id/btn_add_scentence"/>
-
-    <Button
-        android:visibility="invisible"
-        android:layout_marginTop="50dp"
-        android:layout_below="@id/btn_add_scentence"
-        android:layout_centerHorizontal="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Create a neww Collection"
-        android:id="@+id/btn_create_new_collection"/>
-
-</RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

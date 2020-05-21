@@ -1,19 +1,15 @@
 package com.vcdev.wil_gr7_dev.models;
 
 public class ScentenceObject {
-    String scentence, jumbledScentence;
 
-    public ScentenceObject(String scentence, String jumbledScentence) {
-        this.scentence = scentence;
-        this.jumbledScentence = jumbledScentence;
+    String scentence;
+
+    public ScentenceObject() {
     }
 
-    @Override
-    public String toString() {
-        return "ScentenceObject{" +
-                "scentence='" + scentence + '\'' +
-                ", jumbledScentence='" + jumbledScentence + '\'' +
-                '}';
+    public ScentenceObject(String scentence) {
+        this.scentence = scentence;
+
     }
 
     public String getScentence() {
@@ -22,13 +18,5 @@ public class ScentenceObject {
 
     public void setScentence(String scentence) {
         this.scentence = scentence;
-    }
-
-    public String getJumbledScentence() {
-        return jumbledScentence;
-    }
-
-    public void setJumbledScentence(String jumbledScentence) {
-        this.jumbledScentence = jumbledScentence;
     }
 }

@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">wil_gr7_dev</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_sign_in">Sign in</string>
+    <string name="sign_out">Sign out</string>
+
+
+    <!-- Dialog/Fragment names -->
+    <string name="dialog_new_note">New Note Dialog</string>
+
+    <!-- Strings -->
+    <string name="note_title">Title</string>
+    <string name="note_content">Content</string>
 </resources>

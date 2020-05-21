@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".create_scentence_builder_collections.CreateScentenceBuilderCollectionActivity">
+    <Spinner
+        android:dropDownHeight="50dp"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:id="@+id/spinner_levels" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/spinner_levels"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@drawable/ic_add"
+        android:id="@+id/btn_add_level"/>
+    <TextView
+        android:layout_marginTop="75dp"
+        android:layout_below="@+id/spinner_levels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter a name for the scentence collection"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:id="@+id/tv_col_name"/>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/collection_name"
+        android:layout_below="@id/tv_col_name"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:maxLines="1"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/collection_name"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="How many scentences will be in the collection?"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:id="@+id/tv_num_of_scentences"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:id="@+id/num_of_scentences"
+        android:layout_below="@id/tv_num_of_scentences"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:maxLines="1"/>
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/num_of_scentences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Collection"
+        android:id="@+id/btn_create_collection"/>
+</RelativeLayout>

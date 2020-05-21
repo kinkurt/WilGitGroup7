@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".create_scentence_builder_collections.AddScentencesToCollectionActivity">
+    <TextView
+        android:maxLines="3"
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter scentence to add to the collection"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:id="@+id/tv_scentance"/>
+
+    <EditText
+        android:layout_below="@+id/tv_scentance"
+        android:layout_marginTop="20dp"
+        android:id="@+id/input_scentence"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:maxLines="1"/>
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/input_scentence"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Scentence to Collection"
+        android:id="@+id/btn_add_scentence"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/btn_add_scentence"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create a new Collection"
+        android:id="@+id/btn_create_new_collection"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/btn_create_new_collection"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/btn_cancel"/>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "914971111678",
+    "firebase_url": "https://wilgr7app.firebaseio.com",
+    "project_id": "wilgr7app",
+    "storage_bucket": "wilgr7app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914971111678:android:eb2b31cf19f7364fa335af",
+        "android_client_info": {
+          "package_name": "com.vcdev.wil_gr7_dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914971111678-ncb7441b77oa0ll3jf6gdn54sisic8kj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vcdev.wil_gr7_dev",
+            "certificate_hash": "9f06d786d328b32404ffaa8b6d087e3463c05ee3"
+          }
+        },
+        {
+          "client_id": "914971111678-cudg9arf2b4h64bmetk1pgboidr8j7kf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWramhQEoLSqTQ3Sa0F9PJkQeBKFfl5WQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914971111678-cudg9arf2b4h64bmetk1pgboidr8j7kf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

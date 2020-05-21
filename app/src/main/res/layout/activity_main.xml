@@ -18,5 +18,13 @@
         android:layout_centerVertical="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Scentence Builder"/>
+        android:text="Create Scentence Builder Collections"/>
+    <Button
+        android:layout_below="@+id/btn_scentence_builder"
+        android:id="@+id/btn_scentence_builder_student"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Scentence Builder Collections"/>
 </RelativeLayout>
